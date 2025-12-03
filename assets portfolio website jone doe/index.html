@@ -1,0 +1,388 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <!--=============== UNICONS ===============-->
+        <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.2.0/css/line.css">
+        <!--=============== CSS ===============-->
+        <link rel="stylesheet" href="./assets/css/styles.css">
+        <title>Portfolio Website</title>
+    </head>
+    <body>
+        <!--=============== HEADER ===============-->
+        <header class="header" id="header">
+            <nav class="nav container">
+                <a href="index.html" class="nav__logo">
+                    Yaroslav
+                </a>
+                <div class="nav__menu" id="nav-menu">
+                    <ul class="nav__list">
+                        <li>
+                            <a href="#home" class="nav__link active-link">Home</a>
+                        </li>
+                        <li>
+                            <a href="#about" class="nav__link">About</a>
+                        </li>
+                        <li>
+                            <a href="#services" class="nav__link">Services</a>
+                        </li>
+                        <li>
+                            <a href="#portfolio" class="nav__link">Portfolio</a>
+                        </li>
+                        <li>
+                            <a href="#contact" class="nav__link">Contact</a>
+                        </li>
+                    </ul>
+                    <div class="nav__close" id="nav-close">
+                     <i class="uil uil-times"></i>
+
+                    </div>
+                </div>
+                <div class="nav__socials">
+                    <a
+                        href="#"
+                        target="_blank"
+                        class="nav__social-link"
+                        aria-label="Facebook"
+                    >
+                        <i class="uil uil-facebook-f"></i>
+                    </a>
+                    <a
+                        href="#"
+                        target="_blank"
+                        class="nav__social-link"
+                        aria-label="Instagram"
+                    >
+                        <i class="uil uil-instagram"></i>
+                    </a>
+                    <a
+                        href="#"
+                        target="_blank"
+                        class="nav__social-link"
+                        aria-label="Twitter"
+                    >
+                        <i class="uil uil-twitter"></i>
+                    </a>
+                    <a
+                        href="#"
+                        target="_blank"
+                        class="nav__social-link"
+                        aria-label="LinkedIn"
+                    >
+                        <i class="uil uil-linkedin"></i>
+                    </a>
+                </div>
+                <div class="nav__btns">
+                    <a href="" class="nav__link-btn btn">
+                        lets talk
+                    </a>
+                    <div class="nav__toggle" id="nav-toggle">
+                        <i class="uil uil-bars"></i>
+                    </div>
+                </div>
+            </nav>
+        </header>
+        <!--=============== MAIN ===============-->
+        <main class="main">
+            <!--=============== HOME ===============-->
+            <section class="home" id="home">
+                <div class="home__container container grid">
+                    <div class="home__content">
+                        <span class="home__subtitle">Welcome to my world</span>
+                        <h1 class="home__title">
+                            Hi, i`m Yaroslav Uteshev
+                            <span>front-end</span>
+                            developer, based in Kazahstan
+                        </h1>
+                    </div>
+                    <img
+                        src="assets/img/home.jpg"
+                        width="100%"
+                        alt=""
+                        class="home__img"
+                    >
+                </div>
+            </section>
+          <!--=============== ABOUT ===============-->
+<section class="about section" id="about">
+    <div class="about__container container grid">
+        <img src="./assets/img/about.png" alt="About me photo">
+        <div class="about__content">
+            <h2 class="section__title">About me</h2>
+            <p class="about__description">
+                Hi! I’m a passionate Front-End Developer focused on building clean, responsive, and modern web interfaces. I have solid experience with HTML, CSS, and JavaScript, and I’m expanding my skills in Vue.js, Node.js, and React to move toward Full-Stack development. I enjoy turning ideas into functional and visually appealing websites while keeping user experience in mind. Outside of programming, I’m a gamer, music lover, and fitness enthusiast — I practice calisthenics and track and field to stay disciplined and persistent. I’m calm, methodical, and goal-oriented, always following through to completion.
+            </p>
+            <div class="tabs__btns">
+                <span class="tabs__btn tab__active" data-target="#skills">Main skills</span>
+                <span class="tabs__btn" data-target="#awards">Awards</span>
+                <span class="tabs__btn" data-target="#experience">Experience</span>
+                <span class="tabs__btn" data-target="#education">Education & certificate</span>
+            </div>
+            <div class="tabs__content">
+                <div class="tabs__item tab__active" data-content id="skills">
+                    <div class="tabs__data grid">
+                        <p class="tabs__description">
+                            <span>Skills</span>
+                            <span>HTML5 / CSS3 / JavaScript (ES6+) / Tailwind CSS / Bootstrap / Figma / Git / GitHub / SOLID / KISS / Vue.js / Nuxt.js / React / Next.js / Web API / JSON / jQuery / SQL / MySQL / Google Maps API</span>
+                        </p>
+                        <p class="tabs__description">
+                            <span>Languages</span>
+                            <span>Russian (native), English (C1)</span>
+                        </p>
+                    </div>
+                </div>
+                <div class="tabs__item" data-content id="awards">
+                    <div class="tabs__data grid">
+                        <p class="tabs__description">
+                            <span>Awards</span>
+                            <span>Completed Front-End Developer online course with distinction</span>
+                        </p>
+                        <p class="tabs__description">
+                            <span>Rolling scopes school</span>
+                            <span>Completed "First Steps" course in Front-End Development</span>
+                        </p>
+                        <p class="tabs__description">
+                            <span>Project Recognition</span>
+                            <span>Best UI/UX project in a web development contest</span>
+                        </p>
+                    </div>
+                </div>
+                <div class="tabs__item" data-content id="experience">
+                    <div class="tabs__data grid">
+                        <p class="tabs__description">
+                            <span>Projects</span>
+                            <span>Junior Front-End Developer at personal and college projects, building responsive websites</span>
+                        </p>
+                        <p class="tabs__description">
+                            <span>Open Source</span>
+                            <span>Contributed to open-source projects on GitHub</span>
+                        </p>
+                        <p class="tabs__description">
+                            <span>Web Apps</span>
+                            <span>Developed small web applications using Vue.js and React</span>
+                        </p>
+                    </div>
+                </div>
+                <div class="tabs__item" data-content id="education">
+                    <div class="tabs__data grid">
+                        <p class="tabs__description">
+                            <span>Education</span>
+                            <span>Currently studying Web Development (HTML, CSS, JS, Vue.js, Node.js)</span>
+                        </p>
+                        <p class="tabs__description">
+                            <span>Courses</span>
+                            <span>Completed courses on JavaScript, React, and Responsive Design</span>
+                        </p>
+                        <p class="tabs__description">
+                            <span>Certificate</span>
+                            <span>Front-End Development Certificate from [Coursera/Codecademy]</span>
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+          <!--=============== SERVICES ===============-->
+<section class="services section" id="services">
+    <h2 class="section__title">My Awesome Services</h2>
+    <p class="section__description">I provide a range of web development services to help bring your ideas to life</p>
+    <div class="services__container container grid">
+        <div class="services__item">
+            <i class="uil uil-rss-interface services__icon"></i>
+            <h3 class="services__title">Web Design</h3>
+            <p class="services__description">Creating clean, modern, and responsive designs that provide excellent user experience.</p>
+        </div>
+        <div class="services__item">
+            <i class="uil uil-layer-group services__icon"></i>
+            <h3 class="services__title">Front-End Development</h3>
+            <p class="services__description">Building interactive and efficient web interfaces using HTML, CSS, JavaScript, and frameworks like Vue.js and React.</p>
+        </div>
+        <div class="services__item">
+            <i class="uil uil-desktop services__icon"></i>
+            <h3 class="services__title">Responsive Websites</h3>
+            <p class="services__description">Ensuring websites look and function perfectly on all devices — desktop, tablet, and mobile.</p>
+        </div>
+        <div class="services__item">
+            <i class="uil uil-server services__icon"></i>
+            <h3 class="services__title">Back-End Integration</h3>
+            <p class="services__description">Connecting front-end applications with server-side logic and databases using Node.js and MySQL.</p>
+        </div>
+        <div class="services__item">
+            <i class="uil uil-search services__icon"></i>
+            <h3 class="services__title">Website Optimization</h3>
+            <p class="services__description">Improving website performance, speed, and SEO to provide the best user experience.</p>
+        </div>
+        <div class="services__item">
+            <i class="uil uil-lightbulb services__icon"></i>
+            <h3 class="services__title">UI/UX Consulting</h3>
+            <p class="services__description">Providing insights and solutions to make your website visually appealing and user-friendly.</p>
+        </div>
+    </div>
+</section>
+
+          <!--=============== PORTFOLIO ===============-->
+<section class="portfolio section" id="portfolio">
+    <h2 class="section__title">My Latest Projects</h2>
+    <p class="section__description">
+        Here are some of my recent web development projects, showcasing responsive design, modern UI, and interactive features.
+    </p>
+    <div class="portfolio__container container grid">
+        <div class="portfolio__item">
+            <img src="/assets/img/portfolio-1.jpg" alt="Project 1" class="portfolio__img">
+            <div class="portfolio__data">
+                <p class="portfolio__subtitle">Web Development</p>
+                <h3 class="portfolio__title">Responsive Portfolio Website</h3>
+                <p class="portfolio__description">
+                    A fully responsive portfolio website built with HTML, CSS, and JavaScript. Features modern UI and smooth animations.
+                </p>
+            </div>
+        </div>
+        <div class="portfolio__item">
+            <img src="/assets/img/portfolio-2.jpg" alt="Project 2" class="portfolio__img">
+            <div class="portfolio__data">
+                <p class="portfolio__subtitle">UI/UX Design</p>
+                <h3 class="portfolio__title">E-commerce Landing Page</h3>
+                <p class="portfolio__description">
+                    Designed a clean and user-friendly landing page for an e-commerce site using Figma and implemented it with HTML and CSS.
+                </p>
+            </div>
+        </div>
+        <div class="portfolio__item">
+            <img src="/assets/img/portfolio-3.jpg" alt="Project 3" class="portfolio__img">
+            <div class="portfolio__data">
+                <p class="portfolio__subtitle">Web App</p>
+                <h3 class="portfolio__title">Task Management App</h3>
+                <p class="portfolio__description">
+                    A small web application built with Vue.js, allowing users to add, edit, and manage tasks efficiently.
+                </p>
+            </div>
+        </div>
+        <div class="portfolio__item">
+            <img src="/assets/img/portfolio-4.jpg" alt="Project 4" class="portfolio__img">
+            <div class="portfolio__data">
+                <p class="portfolio__subtitle">Front-End Development</p>
+                <h3 class="portfolio__title">Blog Website</h3>
+                <p class="portfolio__description">
+                    Developed a blog platform with responsive design, interactive navigation, and optimized performance using React.
+                </p>
+            </div>
+        </div>
+        <div class="portfolio__item">
+            <img src="/assets/img/portfolio-5.jpg" alt="Project 5" class="portfolio__img">
+            <div class="portfolio__data">
+                <p class="portfolio__subtitle">Web Design</p>
+                <h3 class="portfolio__title">Creative Agency Website</h3>
+                <p class="portfolio__description">
+                    Created a modern and visually appealing website for a creative agency, focusing on UX and responsive layouts.
+                </p>
+            </div>
+        </div>
+        <div class="portfolio__item">
+            <img src="/assets/img/portfolio-6.jpg" alt="Project 6" class="portfolio__img">
+            <div class="portfolio__data">
+                <p class="portfolio__subtitle">Web Development</p>
+                <h3 class="portfolio__title">Interactive Photo Gallery</h3>
+                <p class="portfolio__description">
+                    Built an interactive photo gallery with filtering options and smooth transitions using JavaScript and CSS animations.
+                </p>
+            </div>
+        </div>
+    </div>
+</section>
+
+            <!--=============== CONTACT ===============-->
+            <section class="contact section" id="contact">
+                <div class="contact__container container grid">
+                    <div class="contact__content">
+                        <h2 class="section__title">Hire me</h2>
+                        <p class="contact__description">
+                            Lorem ipsum, dolor sit amet.
+                            <a href="tel:+7708236514">+7708236514</a>
+                            or an email
+                            <a href="mailto:kramsk55555@gmail.com">kramsk55555@gmail.com</a>
+                        </p>
+                        <form class="contact__form" id="contact__form">
+                            <div class="contact__form-input">
+                                <input
+                                    type="text"
+                                    name="name"
+                                    placeholder="Your name"
+                                    class="contact__form-input"
+                                    id="contact__name"
+                                >
+                            </div>
+                            <div class="contact__form-input">
+                                <input
+                                    type="email"
+                                    name="email"
+                                    placeholder="Your email address"
+                                    class="contact__form-input"
+                                    id="contact__email"
+                                >
+                            </div>
+                            <div class="contact__form-input">
+                                <input
+                                    type="text"
+                                    name="subject"
+                                    placeholder="Write a subject"
+                                    class="contact__form-input"
+                                    id="contact__subject"
+                                >
+                            </div>
+                            <div class="contact__form-input">
+                                <textarea
+                                    class="contact__form-input textarea"
+                                    placeholder="Your message"
+                                    name="message"
+                                    id="contact__message"
+                                ></textarea>
+                            </div>
+                            <input type="submit" value="Submit" class="btn">
+                            <p class="error__message" id="error-message"></p>
+                        </form>
+                    </div>
+                    <img src="/assets/img/contact.jpg" alt="Contact image" class="contact__img">
+                </div>
+            </section>
+        </main>
+        <!--=============== FOOTER ===============-->
+        <footer class="footer">
+            <div class="footer__container container grid">
+                <a href="index.html" class="footer__logo">
+                    Yar
+                    <span>o</span>
+                    slav
+                </a>
+                <div class="footer__socials">
+                    <a href="#" target="_blank" class="footer__social-link">
+                        <i class="uil uil-facebook-f"></i>
+                    </a>
+                    <a href="#" target="_blank" class="footer__social-link">
+                        <i class="uil uil-instagram"></i>
+                    </a>
+                    <a href="#" target="_blank" class="footer__social-link">
+                        <i class="uil uil-twitter"></i>
+                    </a>
+                    <a href="#" target="_blank" class="footer__social-link">
+                        <i class="uil uil-linkedin"></i>
+                    </a>
+                </div>
+                <p class="footer__copyright">
+                    &copy; 2025 All rights reserved.
+                </p>
+            </div>
+        </footer>
+        <!--=============== SCROLL UP ===============-->
+        <a href="#" class="scroll-up" id="scroll-up">
+            <i class="uil uil-angle-up scrollup__icon"></i>
+        </a>
+        <!--=============== EMAIL JS ===============-->
+        <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
+        <!--=============== MAIN JS ===============-->
+        <script src="./assets/js/main.js"></script>
+    </body>
+</html>
